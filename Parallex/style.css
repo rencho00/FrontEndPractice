@@ -1,0 +1,40 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666666;
+    font-family: "Lato", sans-serif;
+}
+
+.Pimg,
+.timg,
+.simg {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*
+    fixed=parallex
+    scroll=normal
+    */
+    background-attachment: fixed;
+}
+
+.Pimg {
+    min-height: 100%;
+    background-image: 283.jpg;
+}
+
+.simg {
+    min-height: 100%;
+    background-image: 285.jpg;
+}
+
+.timg {
+    min-height: 100%;
+    background-image: 578.jpg;
+}
