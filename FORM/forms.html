@@ -1,34 +1,87 @@
 <html>
+<meta lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width ,initial-scale=1.0">
 <title>
-    <h2>Form Fields</h2>
+    SURVEY FORMS
+    <link rel="stylesheet" href="Parallex\style.css">
 </title>
+<style>
+    body,
+    html {
+        height: 100%;
+        margin: 0;
+        font-size: 16px;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        line-height: 1.8em;
+        color: whitesmoke;
+        display: block
+    }
+    
+    .sd {
+        background-image: url(578.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .we {
+        display: block;
+    }
+    
+    .wd {
+        display: block;
+    }
+    
+    .ed {
+        display: inline-block
+    }
+    
+    .qe {
+        display: block;
+        min-width: 700px;
+        padding: 10px;
+    }
+</style>
 
-<body>
-    <form>
-        <lablel for="fname">First Name:</lablel>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname" id="lname" name="lname">Last Name:</label><br>
-        <input for="lname" id="lname" name="lname">
-    </form>
+<body class="sd">
+    <div>
+        <h2>Registration From</h2>
+        <p>
+            Tell us something positive that happened to you today.
+        </p>
+    </div>
 
-    <form>
-        <input type="radio" id="male " name='gender' value="male">
-        <label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label>
-        <input type="radio" id="other" name="gender" value="other">
-        <label for="other">Other</label>
+    <section>
+        <form class="w1">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <div class="we">
+                    <div class="ed">
+                        <label name="Fname">First Name:</label>
+                    </div>
+                    <div class="qe">
+                        <input type="text" id="Fname" placeholder="First name" required>
+                    </div>
+                    <div class="ed">
+                        <label name="Lname">Last Name:</label>
+                    </div>
+                    <div class="qe">
+                        <input type="text" id="Lname" placeholder="Last Name " required>
+                    </div>
+                    <div class="ed">
+                        <label name="email">Email*:</label>
+                    </div>
+                    <div class="qe">
+                        <input type="text" id="email" placeholder="Email" required>
+                    </div>
+                </div>
 
-    </form>
+            </fieldset>
 
-    <form>
-        <input type="checkbox" id="vehicle1" name="vehicle1">
-        <label for="vehicle1">I have a BIKE</label><br>
-        <input type="checkbox" id="vehicle2" name="vehicle2">
-        <label for="vehicle2">Ihave a CAR</label><br>
-    </form>
-
-    <p>this is isfjkjfjf kfj f fjh f</p>
+        </form>
+    </section>
 
 
 </body>
