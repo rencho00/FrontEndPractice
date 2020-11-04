@@ -6,7 +6,21 @@ html {
     font-family: "lato", sans-serif;
     font-weight: 400;
     line-height: 1.8em;
-    color: #666
+    color: solid black;
+    background-image: url('25.jpg');
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+    background-image: url('578.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 h1 {
@@ -22,4 +36,87 @@ h1,
 p {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+label {
+    display: block;
+    align-items: center;
+    font-size: 1.12em;
+    margin: 0.5em;
+}
+
+input,
+button,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    line-height: inherit;
+    font-size: inherit;
+}
+
+button {
+    border: none;
+}
+
+.container {
+    width: 100%;
+    margin: 3.125rem 0 auto 0;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+.header {
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+}
+
+.description {
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.text-center {
+    text-align: center;
+}
+
+form {
+    background-color: var(--color-darkblue-aplha);
+    padding: 2.5em 0.625em;
+    border-radius: 0.25em;
+}
+
+@media (min-width:480px) {
+    .form-control {
+        padding: 2.5rem
+    }
+}
+
+.form-group {
+    margin: 0 auto 1.25em auto;
+    padding: 0.25rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.375rem;
+    color: #495057;
+    background-color: ;
+    background-clip: ;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
