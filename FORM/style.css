@@ -1,3 +1,15 @@
+:root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body,
 html {
     height: 100%;
@@ -6,8 +18,9 @@ html {
     font-family: "lato", sans-serif;
     font-weight: 400;
     line-height: 1.8em;
-    color: solid black;
-    background-image: url('25.jpg');
+    color: solid white;
+    background-image: url('578.jpg');
+    background-attachment: fixed;
 }
 
 body::before {
@@ -39,7 +52,7 @@ p {
 }
 
 label {
-    display: block;
+    display: flex;
     align-items: center;
     font-size: 1.12em;
     margin: 0.5em;
@@ -61,7 +74,6 @@ button {
 
 .container {
     width: 100%;
-    align-items: center;
     margin: 3.125rem 0 auto 0;
 }
 
@@ -96,6 +108,7 @@ form {
     background-color: var(--color-darkblue-aplha);
     padding: 2.5em 0.625em;
     border-radius: 0.25em;
+    border: 1px dashed white;
 }
 
 @media (min-width:480px) {
