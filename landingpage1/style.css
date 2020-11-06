@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: darkblue;
+    line-height: 1.6;
+}
+
+#showcase {
+    background-image: url("se.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#showcase h2 {
+    padding-top: 230px;
+    color: white
+}
+
+#showcase p {
+    margin: 30px;
+    color: white;
+}
+
+.button {
+    border: 1px solid black;
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 25px;
+    font-size: larger;
+    text-decoration: none;
+    border-style: none;
+}
+
+.button:hover {
+    color: black;
+    font-size: larger;
+    background: white;
+}
+
+.section-1 {
+    font-size: 20px;
+    color: white;
+    background: black;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 5px 5px 5px whitesmoke;
+    text-indent: 70px;
+    text-size-adjust: auto;
+}
+
+.section-2 {
+    font-size: 20px;
+    color: black;
+    background: crimson;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+#section-3 {
+    display: flex
+}
+
+#section-3 .col-1,
+.col-3 {
+    background: rgba(7, 19, 180, 0.8);
+    font-weight: bold;
+    padding: 25px;
+    color: powderblue;
+    text-shadow: 4px 4px 7px rosybrown;
+}
+
+#section-3 .col-2 {
+    padding: 25px;
+    color: pink;
+    font-weight: bold;
+    text-shadow: 4px 4px 7px black;
+    background: rgb(107, 18, 62);
+}
+
+.foot-section {
+    background-image: url('es.jpg');
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.foot-section h1 {
+    color: rgb(236, 37, 37);
+    align-items: center;
+    text-align: center;
+    padding-top: 400px;
+    text-shadow: 8px 8px 12px black;
+}
