@@ -106,5 +106,8 @@ body {
     align-items: center;
     text-align: center;
     padding-top: 400px;
+    border: 1px;
+    border-radius: 5px;
+    border-spacing: 50px;
     text-shadow: 8px 8px 12px black;
 }
